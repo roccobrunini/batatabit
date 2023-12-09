@@ -447,13 +447,23 @@ main{
     color: #757575;
 }
 
+.plans-container--slider{
+    display: flex;
+    position: relative;
+    width: 316px;
+    overflow: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+}
+
 .plans-container-card{
     position: relative;
+    scroll-snap-align: center;
     width: 50%;
     min-width: 190px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0px;
+    margin: 40px 30px 20px;
     padding: 0px 15px;
     background: var(--just-white);
     border-radius: 8px;
@@ -512,7 +522,6 @@ main{
     color: #757575;
 }
 
-
 .plan-card-ca{
     width: 150px;
     height: 48px;
@@ -533,4 +542,35 @@ main{
     height: 20px;
     background-image: url("./assets/icons/orange-right-arrow.svg");
     vertical-align: text-bottom;
+}
+
+
+.principal-right{
+    width: 15px;
+    height: 8px;
+    position: absolute;
+    top: calc(50% - 7.5px);
+    right: -75%;
+}
+
+.principal-left{
+    width: 15px;
+    height: 8px;
+    position: absolute;
+    top: calc(50% - 7.5px);
+}
+
+.secondary-right{
+    width: 15px;
+    height: 8px;
+    position: absolute;
+    top: calc(50% - 7.5px);
+    left: 75%;
+}
+
+.secondary-left{
+    width: 15px;
+    height: 8px;
+    position: absolute;
+    top: calc(50% - 7.5px);
 }
