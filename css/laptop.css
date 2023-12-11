@@ -1,0 +1,8 @@
+.product-cards--container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 830px;
+    max-width: 930px;
+    margin: 0 auto;
+}

@@ -168,7 +168,7 @@ main{
     width: 70%;
     scroll-snap-align: center;
     min-width: 235px;
-    max-width: 500px;
+    max-width: 440px;
     height: 360px;
     margin: 0 33.3%;
     font-family: "Inter", sans-serif;
@@ -474,11 +474,15 @@ main{
     min-width: 190px;
     max-width: 230px;
     height: 250px;
-    margin: 40px 33.3% 20px;
+    margin: 40px 40px 20px;
     padding: 0px 15px;
     background: var(--just-white);
     border-radius: 8px;
     box-shadow: 0px 4px 8px 0px rgba(89, 73, 30, 0.16);
+}
+
+.trimestral-card{
+    margin: 40px 0px 20px;
 }
 
 .plans-container-card .recommended{
