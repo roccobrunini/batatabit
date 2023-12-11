@@ -155,12 +155,21 @@ main{
     color: #757575;
 }
 
+.main-tables-container{
+    display: flex;
+    width: 320px;
+    overflow: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+}
+
 .main-currency-table{
     width: 70%;
+    scroll-snap-align: center;
     min-width: 235px;
     max-width: 500px;
     height: 360px;
-    margin: 0 auto;
+    margin: 0 42.5px;
     font-family: "Inter", sans-serif;
 }
 
@@ -544,33 +553,3 @@ main{
     vertical-align: text-bottom;
 }
 
-
-.principal-right{
-    width: 15px;
-    height: 8px;
-    position: absolute;
-    top: calc(50% - 7.5px);
-    right: -75%;
-}
-
-.principal-left{
-    width: 15px;
-    height: 8px;
-    position: absolute;
-    top: calc(50% - 7.5px);
-}
-
-.secondary-right{
-    width: 15px;
-    height: 8px;
-    position: absolute;
-    top: calc(50% - 7.5px);
-    left: 75%;
-}
-
-.secondary-left{
-    width: 15px;
-    height: 8px;
-    position: absolute;
-    top: calc(50% - 7.5px);
-}
