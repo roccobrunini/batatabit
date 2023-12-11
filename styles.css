@@ -459,7 +459,7 @@ main{
 .plans-container--slider{
     display: flex;
     position: relative;
-    width: 316px;
+    width: 320px;
     overflow: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
@@ -472,7 +472,7 @@ main{
     min-width: 190px;
     max-width: 300px;
     height: 250px;
-    margin: 40px 30px 20px;
+    margin: 40px 65px 20px;
     padding: 0px 15px;
     background: var(--just-white);
     border-radius: 8px;
@@ -553,3 +553,33 @@ main{
     vertical-align: text-bottom;
 }
 
+footer{
+    display: flex;
+    width: 100%;
+    min-width: 320px;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+}
+
+footer section{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .section-left ul{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+}
+
+.section-left li{
+    margin: 10px 0;
+}
+
+.section-left a{
+    text-decoration: none;
+    color: var(--just-white);
+}
